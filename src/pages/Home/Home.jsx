@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import { Carousel, Container } from 'react-bootstrap';
 import UserContext from '../../contexts/user/UserContext.jsx';
 import Products from '../Products/Products.jsx';
+import "./home.css"
 
 export function Home() {
   const userCtx = useContext( UserContext )
@@ -18,7 +19,7 @@ export function Home() {
               src="https://png.pngtree.com/thumb_back/fw800/background/20230407/pngtree-bay-area-has-beautiful-natural-scenery-in-summer-image_2144433.jpg"
               alt="First slide"
             />
-            <Carousel.Caption>
+            <Carousel.Caption className="color-red">
               <h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
