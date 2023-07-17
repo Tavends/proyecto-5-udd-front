@@ -14,7 +14,7 @@ import PayPalCheckout from './pages/PayPalCheckout/PayPalCheckout.jsx'
 import Product from './pages/Products/Product/Product.jsx'
 import Products from './pages/Products/Products.jsx'
 import { Profile } from './pages/Profile/Profile.jsx'
-import { Footer } from "./components/Footer/Footer.jsx"
+import Footer from "./components/Footer/Footer.jsx"
 function App() {
 
   return (
