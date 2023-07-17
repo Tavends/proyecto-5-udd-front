@@ -1,7 +1,7 @@
 # proyecto-5-udd-front
 Este proyecto está enfocado en construir una aplicación de eCommerce.
 
-Deberás considerar los siguientes elementos:
+El proyecto contiene:
 
 Un catálogo de productos
 Un carrito de compras
