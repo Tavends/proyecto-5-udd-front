@@ -52,7 +52,7 @@ export function Home() {
           </Carousel.Item>
         </Carousel>
       </Container>
-      <Products></Products>
+      <Products className="Catalogo"></Products>
     </Container>
   )
 }
