@@ -25,4 +25,5 @@ h1 {
 }
 .Catalogo {
     display: flex;
+    justify-content: center;
 }

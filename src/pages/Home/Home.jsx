@@ -16,7 +16,7 @@ export function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://png.pngtree.com/thumb_back/fw800/background/20230407/pngtree-bay-area-has-beautiful-natural-scenery-in-summer-image_2144433.jpg"
+              src="https://saboryestilo.com.mx/wp-content/uploads/2020/08/Licores-Ejemplos.jpg"
               alt="First slide"
             />
             <Carousel.Caption className="color-red">
@@ -27,7 +27,7 @@ export function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://st.depositphotos.com/1679308/1622/i/600/depositphotos_16225575-stock-photo-landscape-of-croatian-nature.jpg"
+              src="https://images.unsplash.com/photo-1544782321-8fab42cfd62e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGlxdW9yfGVufDB8fDB8fHww&w=1000&q=80"
               alt="Second slide"
             />
 
@@ -39,7 +39,7 @@ export function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              src="https://st3.depositphotos.com/1063437/13221/i/450/depositphotos_132218858-stock-photo-bottles-of-assorted-hard-liquor.jpg"
               alt="Third slide"
             />
 
@@ -52,7 +52,8 @@ export function Home() {
           </Carousel.Item>
         </Carousel>
       </Container>
-      <Products className="Catalogo"></Products>
+      <Products className="Catalogo">
+      </Products>
     </Container>
   )
 }

@@ -3,6 +3,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { ProductCard } from '../../components/ProductCard/ProductCard.jsx';
 import axiosClient from "../../config/axios.jsx";
 import UserContext from '../../contexts/user/UserContext.jsx';
+import "./products.css"
+
 export const Products = () => {
   const userCtx = useContext( UserContext )
   const { user } = userCtx
@@ -27,14 +29,13 @@ export const Products = () => {
           <h1>Catálogo de productos de { user?.fullName || "invitado" }</h1>
         </Col>
       </Row>
-      <Row>
+      <Container className='Catalogo'>
         { products.map( product => {
-          return <Col key={ product._id }>
-            <ProductCard product={ product } productViewPath={ `/products/${ product._id }` }></ProductCard>
-          </Col>
-        } )
+          return ( 
+          <ProductCard key={ product._id } product={ product } productViewPath={ `/products/${ product._id }` }></ProductCard>
+         ) } )
         }
-      </Row>
+      </Container>
     </Container>
 
   )
