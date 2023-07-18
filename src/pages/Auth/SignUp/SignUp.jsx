@@ -1,5 +1,6 @@
 import { useContext, useState } from 'react';
 import UserContext from "../../../contexts/user/UserContext.jsx";
+import "../SignUp/SignUp.css"
 export const SignUp = () => {
   const userCtx = useContext( UserContext )
   const { registerUser } = userCtx
