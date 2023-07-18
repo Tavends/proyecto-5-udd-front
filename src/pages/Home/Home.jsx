@@ -16,12 +16,12 @@ export function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://saboryestilo.com.mx/wp-content/uploads/2020/08/Licores-Ejemplos.jpg"
+              src="https://enlabarradeoz.files.wordpress.com/2020/04/licores-en-la-barra-de-oz.jpg?w=600"
               alt="First slide"
             />
             <Carousel.Caption className="color-red">
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h3>Prueba nuestros despachos express</h3>
+              <p>No te pierdas las promociones que tenemos para ti!</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -32,8 +32,8 @@ export function Home() {
             />
 
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3>Calidad Excepcional</h3>
+              <p>Somos la mejor distribuidora de Chile</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -44,9 +44,9 @@ export function Home() {
             />
 
             <Carousel.Caption>
-              <h3>Third slide label</h3>
+              <h3>Precios Mayoristas</h3>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                Haste socio mayorista y podras acceder a muchos beneficios!
               </p>
             </Carousel.Caption>
           </Carousel.Item>

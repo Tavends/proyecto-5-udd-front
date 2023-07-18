@@ -7,10 +7,9 @@ function GroupExample() {
       <Card>
         <Card.Img variant="top" src="holder.js/100px160" />
         <Card.Body>
-          <Card.Title>¿Quienes somos?</Card.Title>
+          <Card.Title>¡Te invitamos!</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+          "A Sumérgirte en el mundo de los sabores y la historia en nuestra licorería Pasto Seco. Descubre la pasión detrás de nuestra fundación, una inspiradora historia de amor por destilados artesanales que nos impulsa a ofrecerte la mejor selección de licores con un toque de tradición y modernidad."
           </Card.Text>
         </Card.Body>
         <Card.Footer>
@@ -20,10 +19,11 @@ function GroupExample() {
       <Card>
         <Card.Img variant="top" src="holder.js/100px160" />
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>¡Visitanos!</Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
+            +569 88 28 25 24
+            Calle falsa 123
+            Region metropolitana.{' '}
           </Card.Text>
         </Card.Body>
         <Card.Footer>
@@ -33,11 +33,10 @@ function GroupExample() {
       <Card>
         <Card.Img variant="top" src="holder.js/100px160" />
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>!Escribenos!</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
+            contacto@Pastoseco.cl
+            servicio.al.cliente@Pastoseco.cl
           </Card.Text>
         </Card.Body>
         <Card.Footer>
